@@ -103,3 +103,17 @@
     - URL : 조작할 데이터
     - HTTP method : 데이터에 대한 행위
 - https://velog.io/@somday/RESTful-APl-%EC%9D%B4%EB%9E%80
+
+
+
+# API 명세서
+
+- 친구찾기
+    - GET /{friend_id}
+- 팔로우,언팔로우
+    - POST /follow/{friend_id}
+    - POST /unfollow/{friend_id}
+- 친구 리스트 조회
+    - GET /friendlist/{todo_id}
+- 특정 친구의 할 일 조회
+    - GET /todo/{friend_id}
